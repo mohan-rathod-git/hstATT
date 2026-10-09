@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+build/
+dist/
+*.spec
+!smart_attendance.spec
+
+# Settings and Logs
+config/settings.json
+logs/
+
+# pytest
+.pytest_cache/
